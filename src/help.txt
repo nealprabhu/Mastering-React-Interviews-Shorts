@@ -1,0 +1,7 @@
+kya apne kabhi instagram scroll kiya he, jab bhi aap sare posts ke end tak pochochte ho. instagram apko aur posts fetch krke bhejata he.
+Agar apko interview me infinite scroll implement krne bolte tho aap kaise kroge. chaliye dhekte he.
+
+Lets start with App component, yaha add krte he list of elements, jinme hum push krenge, n elements
+
+Now we just have to add scroll event listerners, so we could increse the count or push new elements.
+If the user has scrolled more than the body height of the document we will increment the count. Hence more elements will be added to the DOM on next re-render.
